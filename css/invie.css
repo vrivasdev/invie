@@ -77,3 +77,30 @@ body{
 	width: 800px;
 	margin: auto; /*centered element*/
 }
+
+.guitarra{
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid;
+	color: #1F313C;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+.derecha{
+	float: right;
+}
+
+.izquierda{
+	float: left;
+}
+
+.contenedor-guitarra-a{
+	padding-left: 20px;
+	
+}
+.contenedor-guitarra-b{
+	margin-left: 370px;
+}
