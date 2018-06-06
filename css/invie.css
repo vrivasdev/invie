@@ -127,6 +127,11 @@ button{
 	background: #273b47;
 }
 
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
 .contacto img{
 	display: block;
 }
@@ -138,4 +143,10 @@ button{
 .contacto a{
 	color: white;
 	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
 }
