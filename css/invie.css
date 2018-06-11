@@ -22,12 +22,62 @@ body{
 	margin: 0;
 }
 
+table{
+	width: 100%;	
+}
+
+th{
+	background: #273b47;	
+	color: white;
+	text-align: left;
+	padding: 10px 20px;
+}
+
+td{
+	padding: 20px;
+}
+
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto; /*centered element*/
+	position: relative;
+}
+
+.background{
+	background-image: url('../images/background.png');
+	background-size: cover;
+}
+
 .button{
-	border-radius: 5px;
-	border: none;
-	background: #fd324e;
+	border-radius: 8px;
+	border: none;	
 	color: white;
 	padding: 7px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	background: #fd324e;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+	/*background: #f3c5bd; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); 
+	background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
+	background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 );*/
+
 }
 
 .titulo{
@@ -36,6 +86,10 @@ body{
 	margin-bottom: 15px;
 	line-height: 40px;
 	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
 }
 
 .title-a{
@@ -50,6 +104,7 @@ body{
 
 .guitarras{
 	color: #1F313C;
+	margin-bottom: 60px;
 }
 
 .guitarras h2{
@@ -57,10 +112,10 @@ body{
 	font-size: 35px;
 }
 
-.portada{
-	background-image: url('../images/background.png');
+.portada{	
 	color: white;
 	padding: 20px;	
+	height: 500px;
 }
 
 .portada button{
@@ -83,20 +138,21 @@ body{
 	content: '∘';
 	font-size: 40px;
 	line-height: 20px;
-	color: blue;
+	color: white;	
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
 }
 
 .logotipo{
 	display: inline-block;
-}
-
-.contenedor{
-	width: 800px;
-	margin: auto; /*centered element*/
+	margin-left: 0;
 }
 
 .guitarra{
-	margin: 10px;
+	margin: 10px 10px 30px 10px;
 	padding: 10px;
 	/*overflow: hidden;*/
 	border: 1px solid;
@@ -106,6 +162,11 @@ body{
 .guitarra ol{
 	padding: 0;
 }
+
+.guitarra.b {
+	height: 190px;
+}
+
 .derecha{
 	float: right;
 	position: relative;
@@ -114,8 +175,7 @@ body{
 
 .izquierda{
 	float: left;
-	position: relative;
-	top: 80px;
+	position: relative;	
 }
 
 .contenedor-guitarra-a{
@@ -124,6 +184,8 @@ body{
 }
 .contenedor-guitarra-b{
 	margin-left: 370px;
+	position: relative;
+	bottom: 90px;
 }
 
 .header{
@@ -132,6 +194,7 @@ body{
 
 .footer{
 	background: #273b47;
+	padding: 50px 10px;
 }
 
 .contacto{
@@ -162,8 +225,7 @@ body{
 .formulario{
 	display: flex;
 	width: 400px;
-	color: white;
-	padding: 50px 10px;
+	color: white;	
 }
 
 .col1, .col2 {
@@ -179,6 +241,10 @@ body{
 	align-items: flex-start;
 }
 
+.col2 .button{
+	margin-top: 15px;
+}
+
 .intereses label{
 	font-size: 12px;
 }
@@ -191,22 +257,6 @@ body{
 	margin-top: 10px;
 }
 
-table{
-	width: 100%;	
-}
-
-th{
-	background: #273b47;	
-	color: white;
-	text-align: left;
-	padding: 10px 20px;
-}
-
-td{
-	padding: 20px;
-}
-
-table, td, th{
-	border: 1px solid #273b47;
-	border-collapse: collapse;
+.tabla{
+	margin: 50px 0;
 }
