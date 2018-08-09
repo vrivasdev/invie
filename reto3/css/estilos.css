@@ -19,8 +19,8 @@ body{
 	/*animation: tiempo nombre de animacion*/
 }
 
-.cvander:hover{
-
+.cvander:hover .cvander-ipad {
+	transform: rotate(-7deg);
 }
 
 .cvander:hover .cvander-head{	
@@ -45,6 +45,7 @@ body{
 	position: absolute;
 	left    : 0;
 	bottom  : -20px;
+	transition: .2s;
 }
 
 @keyframes cvander {
